@@ -1,0 +1,30 @@
+.seat {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(202, 200, 200);
+    color: black;
+  }
+  
+  .seatBooked {
+    background-color: rgb(224, 50, 50);
+    cursor: no-drop;
+  }
+  
+  .seatBooking {
+    background-color: greenyellow !important;
+  }
+  
+  .seatVip {
+    border: 3px solid rgb(224, 224, 5) !important;
+  }
+
+  .seatUserBooked {
+    background-image: url("https://flyclipart.com/thumb2/user-icon-png-pnglogocom-133466.png") !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: none !important;
+  }
